@@ -22,16 +22,16 @@ A Python tool for generating synthetic OHLC price data and aggregating it to mul
 git clone <repository-url>
 cd ohlc-aggregator
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-# Run the complete example
+### Run the complete example
 python main.py
 
 ## Testing
 
 pytest tests/
-# For detailed output:
+#### For detailed output:
 pytest tests/ -v
 
 ## Note
