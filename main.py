@@ -16,7 +16,7 @@ def main():
     print(f"Generated {len(df_1min)} 1-minute bars")
 
     print(f"Time range: {df_1min.index[0]} to {df_1min.index[-1]}")
-    print("\n1-minute data (first 10 bars)")
+    print("\n1-minute data (first 10 bars):")
     print(df_1min.head(10))
 
     print("\n5-minute data (first 5 bars) with metrics:")

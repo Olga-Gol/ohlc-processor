@@ -1,6 +1,5 @@
 import pytest
 import pandas as pd
-import numpy as np
 from src.data_generator import generate_1min_ohlc
 from src.aggregator import aggregate_to_5min, aggregate_to_30min, aggregate_to_1d
 from src.metrics import add_metrics_to_5min, calculate_vwap

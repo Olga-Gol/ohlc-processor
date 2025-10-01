@@ -1,12 +1,12 @@
 # OHLC Data Aggregation and Analysis Tool
 
-A Python tool for generating synthetic OHLC price data and aggregating it to multiple timeframes with technical indicators and interactive charts.
+A Python tool for generating synthetic OHLC price data and aggregating it to multiple timeframes with financial metrics and visualization.
 
 ## Features
 
 - Generate realistic 1-minute OHLC data for trading days
 - Aggregate to 5-minute, 30-minute, and 1-day timeframes
-- Calculate technical indicators (VWAP, moving average, moving median)
+- Calculate metrics (VWAP, moving average, moving median)
 - Visualization with timeframe switching
 - Test coverage
 
