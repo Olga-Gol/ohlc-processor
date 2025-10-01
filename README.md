@@ -28,16 +28,27 @@ cd ohlc-processor
 ```
 
 ### Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ### Run the complete example
+
+```bash
 python main.py
+```
 
 ## Testing
 
+```bash
 pytest tests/
+```
 #### For detailed output:
+
+```bash
 pytest tests/ -v
+```
 
 ## Note
 This tool generates synthetic data for development and testing purposes. It does not use real market data.
